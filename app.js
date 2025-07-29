@@ -14,6 +14,7 @@ function agregarAmigo(){
     }
 }
 
+//limpia el input luego de añadir un amigo
 function limpiarCaja(){
     document.querySelector("#amigo").value = " ";
 }
@@ -27,4 +28,11 @@ function mostrarLista(){
         amigo.textContent = lista_amigos[i];
         listaImprimida.appendChild(amigo);
     }
+}
+
+//funcion para sortear el amigo elegido
+function sortearAmigo(){
+    var indiceSorteo = Math.floor(Math.random()* lista_amigos.length);
+    var amigoSorteado = lista_amigos[indiceSorteo];
+    var resultado = document.getElementById("resultado").innerHTML = amigoSorteado; 
 }
