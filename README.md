@@ -23,5 +23,6 @@ $ start index.html
 
 ## Uso
 
--solo tendra que ir agregando amigos 
+-solo tendra que ir agregando amigos
+
 -una vez terminado tendra que seleccionar sortear amigo y tendra un amigo sorteado
